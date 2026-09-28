@@ -13,7 +13,9 @@ public class Day1 {
 
         System.out.println("========================");
 
-        System.out.println("직업: ");
+        // print는 개행을 하지 않는다.
+        System.out.print("직업: ");
+        System.out.println("서버 개발자");
         
         // 연산 해보기
         int a = 10;
