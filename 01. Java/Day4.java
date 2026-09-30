@@ -3,6 +3,7 @@ public class Day4 {
         // 배열
         int[] scores = {10, 20, 30, 40, 50}; // 선언과 동시에 값을 저장할 수있다.
         int[] nums = new int[5]; // 원하는 크기로 만들 수도 있다. 값은 0으로 초기화된다.
+        System.out.println("a: " + scores[0] + " b: " + scores[4]);    // 배열은 0에서 시작한다. 
         System.out.println("length: " + scores.length); // .length로 배열의 길이를 가져올 수 있다. 
         // scores[5]; // 배열의 범위를 벗어나면 OutOfBoundsException 오류가 발생한다.
         System.out.println("============================");
